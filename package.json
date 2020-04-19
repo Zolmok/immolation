@@ -1,0 +1,17 @@
+{
+  "name": "Immolation",
+  "version": "0.0.0",
+  "description": "ECS JavaScript game engine",
+  "main": "index.js",
+  "scripts": {
+    "postupdates": "npm install && npm audit fix",
+    "updates": "ncu -u"
+  },
+  "keywords": [],
+  "author": "Ricky Nelson <rickyn@zolmok.org>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
