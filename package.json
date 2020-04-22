@@ -1,17 +1,22 @@
 {
-  "name": "Immolation",
+  "name": "immolation",
   "version": "0.0.0",
   "description": "ECS JavaScript game engine",
   "main": "index.js",
   "scripts": {
     "postupdates": "npm install && npm audit fix",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "updates": "ncu -u"
   },
   "keywords": [],
   "author": "Ricky Nelson <rickyn@zolmok.org>",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0"
   }
 }

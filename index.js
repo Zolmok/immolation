@@ -1,11 +1,9 @@
 import Entity from './src/entity.js';
-import Component from './src/component.js';
 import System from './src/system.js';
+import World  from './src/world.js';
 
-export default function Immolation() {
-  return {
-    Entity,
-    Component,
-    System
-  };
-}
+export {
+  Entity,
+  System,
+  World
+};
