@@ -113,4 +113,4 @@ const gameLoop = (timestamp) => {
 requestAnimationFrame(gameLoop);
 ```
 
-For a more detailed working example see the examples directory.  From the root directory of this project run `python -m SimpleHTTPServer 3001` then navigate to the example you want to run so.  That way the server can access the library which would otherwise be out of the document root.
+For a more detailed working example see the examples directory.  From the root directory of this project run `python -m SimpleHTTPServer 3001` then navigate to the example you want to run so that way the server can access the library which would otherwise be out of the document root.
