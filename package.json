@@ -1,6 +1,6 @@
 {
   "name": "immolation",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ECS JavaScript game engine",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.3.0",
-    "jest": "^25.3.0"
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.2.2",
+    "jest": "^26.2.2",
+    "npm-check-updates": "^7.0.2"
   }
 }
