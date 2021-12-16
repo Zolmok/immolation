@@ -93,14 +93,7 @@ world.addEntity(ball);
 world.addSystem(collisionSystem);
 world.addSystem(movementSystem);
 
-const ctx = ((getContext) => {
-  if (canvas.getContext) {
-    return canvas.getContext('2d');
-  }
-
-  return null;
-})(canvas.getContext);
-
+const ctx = canvas.getContext('2d');
 const Paddle = ({x, y, width, height, color}) => {
   const _x = x;
   const _y = y;
@@ -185,8 +178,7 @@ const gameLoop = (timestamp) => {
   }
 };
 
-// Start game button-handler
-document.querySelector('.start-game').addEventListener('click', () => {
+const startGame = () => {
   gameRunning = true;
   player1Score = 0;
   player2Score = 0;
@@ -196,4 +188,7 @@ document.querySelector('.start-game').addEventListener('click', () => {
   document.querySelector('.player2').textContent = player2Score;
 
   requestAnimationFrame(gameLoop);
-});
+};
+
+// Start game button-handler
+document.querySelector('.start-game').addEventListener('click', startGame);
