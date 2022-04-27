@@ -9,8 +9,5 @@
       "dom",
       "es2017"
     ]
-  },
-  "include": [
-    "frontend/control-panel/**/*"
-  ]
+  }
 }
